@@ -1,16 +1,10 @@
 # Lesson
 
-## Start PM2 Server
+## Start 
 ### Command
- sudo npm run start 
+ npm run start 
 ### Script
- sudo pm2 start server.js
-
-## Stop PM2 server
- ### Command
- sudo npm run stop
-### Script
- sudo pm2 stop server
+ node server.js
 
 ## Development
 ### Command 

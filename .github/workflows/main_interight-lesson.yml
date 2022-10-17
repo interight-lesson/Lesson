@@ -54,3 +54,7 @@ jobs:
           slot-name: 'Production'
           publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_25EA13612E954E14A30B796F0260B277 }}
           package: .
+
+      - name: pm2 start
+        run: |
+          pm2 start server.js --no-daemon
